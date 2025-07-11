@@ -1,0 +1,32 @@
+.tabs-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.tabs-container button {
+  padding: 10px 16px;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+}
+
+.tabs-container button:hover {
+  background-color: #ccc;
+}
+
+.tabs-container button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.tabs-content {
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
