@@ -1,4 +1,4 @@
-# 🧩 React Interview Question 1: Tabs Component (Props-Based) 🧩
+# 🧩 React Interview Question 1 : Tabs Component 🧩
 
 🎯 **React Interview Task – Question 1: Tabs Component**
 
