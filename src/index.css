@@ -1,0 +1,88 @@
+/* ===== Base Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Global Styles ===== */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+/* ===== Headings ===== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* ===== Paragraphs ===== */
+p {
+  margin-bottom: 1rem;
+  color: #cfd8dc;
+}
+
+/* ===== Links ===== */
+a {
+  color: #00e5ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #1de9b6;
+}
+
+/* ===== Buttons ===== */
+button {
+  background-color: #1f1f1f;
+  color: #00e5ff;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #00e5ff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #00e5ff;
+  color: #121212;
+}
+
+/* ===== Utility Classes ===== */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.glow {
+  text-shadow: 0 0 10px #00e5ff88;
+}
