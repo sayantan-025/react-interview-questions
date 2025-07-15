@@ -39,5 +39,3 @@ This task is commonly asked in React interviews to evaluate a candidate’s unde
 - 🚀 Compatible with **Vite** / **CRA**
 
 ---
-
-## 📁 Folder Structure
