@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./TabsComponent.css";
+import "./Tabs.css";
 
-const TabsComponent = ({ tabsData }) => {
+const Tabs = ({ tabsData }) => {
   const [activeTab, setActiveTab] = useState(0);
   const handleClick = (index) => {
     setActiveTab(index);
@@ -25,4 +25,4 @@ const TabsComponent = ({ tabsData }) => {
   );
 };
 
-export default TabsComponent;
+export default Tabs;

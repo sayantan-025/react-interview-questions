@@ -1,10 +1,10 @@
-import tabsData from "./q1-tabs-component/data";
-import TabsComponent from "./q1-tabs-component/TabsComponent";
+import tabsData from "./q1-tabs/data";
+import Tabs from "./q1-tabs/Tabs";
 
 const App = () => {
   return (
     <>
-      <TabsComponent tabsData={tabsData} />
+      <Tabs tabsData={tabsData} />
     </>
   );
 };
