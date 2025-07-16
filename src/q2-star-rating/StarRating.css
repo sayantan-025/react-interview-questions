@@ -1,0 +1,41 @@
+.star-rating-container {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #1a1a1a;
+  color: white;
+  border-radius: 12px;
+  max-width: auto;
+  margin: 2rem auto;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
+  box-sizing: border-box;
+  overflow: hidden; /* Ensures inner scaling doesn't overflow */
+}
+
+.star-rating-heading {
+  font-size: 1.5rem;
+  color: #f5c518;
+  margin-bottom: 1rem;
+}
+
+.star-rating {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 2rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.star {
+  color: #555;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.star:hover {
+  transform: scale(1.2);
+}
+
+.gold {
+  color: #f5c518;
+}
