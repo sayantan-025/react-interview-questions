@@ -2,7 +2,7 @@
 .tabs-container {
   background-color: #1e1e1e;
   border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0, 229, 255, 0.1);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
   overflow: hidden;
   margin: 2rem auto;
   max-width: 800px;
